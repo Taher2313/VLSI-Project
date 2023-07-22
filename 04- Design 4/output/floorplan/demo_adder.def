@@ -1,0 +1,140 @@
+#
+# Created by Oasys-RTL -- (c) Mentor Graphics Corporation
+#
+VERSION 5.8 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN FSMHomeAutomation ;
+UNITS DISTANCE MICRONS 2000 ;
+
+PROPERTYDEFINITIONS
+END PROPERTYDEFINITIONS
+
+DIEAREA ( 0 0 ) ( 148770 148770 ) ;
+
+ROW CORE_ROW_0 FreePDK45_38x28_10R_NP_162NW_34O 60000 60000 FS DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_1 FreePDK45_38x28_10R_NP_162NW_34O 60000 62800 N DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_2 FreePDK45_38x28_10R_NP_162NW_34O 60000 65600 FS DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_3 FreePDK45_38x28_10R_NP_162NW_34O 60000 68400 N DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_4 FreePDK45_38x28_10R_NP_162NW_34O 60000 71200 FS DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_5 FreePDK45_38x28_10R_NP_162NW_34O 60000 74000 N DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_6 FreePDK45_38x28_10R_NP_162NW_34O 60000 76800 FS DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_7 FreePDK45_38x28_10R_NP_162NW_34O 60000 79600 N DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_8 FreePDK45_38x28_10R_NP_162NW_34O 60000 82400 FS DO 75 BY 1 STEP 380 0 ;
+ROW CORE_ROW_9 FreePDK45_38x28_10R_NP_162NW_34O 60000 85200 N DO 75 BY 1 STEP 380 0 ;
+
+TRACKS X 165 DO 391 STEP 379 LAYER metal1 ;
+TRACKS Y 165 DO 530 STEP 280 LAYER metal1 ;
+TRACKS X 165 DO 391 STEP 379 LAYER metal2 ;
+TRACKS Y 165 DO 530 STEP 280 LAYER metal2 ;
+TRACKS X 165 DO 265 STEP 560 LAYER metal3 ;
+TRACKS Y 165 DO 530 STEP 280 LAYER metal3 ;
+TRACKS X 165 DO 265 STEP 560 LAYER metal4 ;
+TRACKS Y 165 DO 530 STEP 280 LAYER metal4 ;
+TRACKS X 165 DO 265 STEP 560 LAYER metal5 ;
+TRACKS Y 165 DO 265 STEP 560 LAYER metal5 ;
+TRACKS X 165 DO 265 STEP 560 LAYER metal6 ;
+TRACKS Y 165 DO 265 STEP 560 LAYER metal6 ;
+TRACKS X 165 DO 92 STEP 1600 LAYER metal7 ;
+TRACKS Y 165 DO 92 STEP 1600 LAYER metal7 ;
+TRACKS X 165 DO 92 STEP 1600 LAYER metal8 ;
+TRACKS Y 165 DO 92 STEP 1600 LAYER metal8 ;
+TRACKS X 165 DO 46 STEP 3200 LAYER metal9 ;
+TRACKS Y 165 DO 46 STEP 3200 LAYER metal9 ;
+TRACKS X 165 DO 46 STEP 3200 LAYER metal10 ;
+TRACKS Y 165 DO 46 STEP 3200 LAYER metal10 ;
+
+
+
+PINS 21 ;
+- output_signals[5] + NET output_signals[5] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 0 75879 ) E 
+;
+- output_signals[4] + NET output_signals[4] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 73079 148490 ) N 
+;
+- output_signals[3] + NET output_signals[3] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 148630 73079 ) N 
+;
+- output_signals[2] + NET output_signals[2] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 74759 148490 ) N 
+;
+- output_signals[1] + NET output_signals[1] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 148630 74759 ) N 
+;
+- output_signals[0] + NET output_signals[0] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 72519 0 ) N 
+;
+- display[2] + NET display[2] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 0 72519 ) E 
+;
+- display[1] + NET display[1] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 75319 0 ) N 
+;
+- display[0] + NET display[0] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 0 75319 ) E 
+;
+- clk + NET clk 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 73639 148490 ) N 
+;
+- rst + NET rst 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 148630 73639 ) N 
+;
+- sensors[3] + NET sensors[3] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 74199 148490 ) N 
+;
+- sensors[2] + NET sensors[2] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 73079 0 ) N 
+;
+- sensors[1] + NET sensors[1] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 0 73079 ) E 
+;
+- sensors[0] + NET sensors[0] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 74759 0 ) N 
+;
+- temp[5] + NET temp[5] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 74199 0 ) N 
+;
+- temp[4] + NET temp[4] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 0 74199 ) E 
+;
+- temp[3] + NET temp[3] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 148630 74199 ) N 
+;
+- temp[2] + NET temp[2] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 0 73639 ) E 
+;
+- temp[1] + NET temp[1] 
++ LAYER metal3 ( 0 0 ) ( 140 140 )
++ PLACED ( 0 74759 ) E 
+;
+- temp[0] + NET temp[0] 
++ LAYER metal4 ( 0 0 ) ( 280 280 )
++ PLACED ( 73639 0 ) N 
+;
+END PINS
+
+BLOCKAGES 4 ;
+END BLOCKAGES
+
+END DESIGN

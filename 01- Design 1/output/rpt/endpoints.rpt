@@ -1,0 +1,30 @@
+Report End Points: 
+-----+-------+------+-------+------+-----+-----+-----+-----------------+-----------------
+     |Group  |Launch|Capture|Shift |Delay|Depth|Slack|Begin Point      |End Point        
+-----+-------+------+-------+------+-----+-----+-----+-----------------+-----------------
+1    |default|sysclk|sysclk |1500.0|713.3|   32|569.5|counter2_reg[2]/Q|counter3_reg[0]/D
+2    |default|sysclk|sysclk |1500.0|702.8|   28|570.1|counter2_reg[2]/Q|counter4_reg[1]/D
+3    |default|sysclk|sysclk |1500.0|703.9|   28|570.2|counter2_reg[2]/Q|counter3_reg[2]/D
+-----+-------+------+-------+------+-----+-----+-----+-----------------+-----------------
+Report End Points: 
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+-----------------
+     |Group|Launch        |Capture|Shift |Delay|Depth|Slack|Begin Point|End Point        
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+-----------------
+1    |I2R  |rtDefaultClock|sysclk |1500.0|743.1|   31| 25.6|sensors[2] |counter3_reg[0]/D
+2    |I2R  |rtDefaultClock|sysclk |1500.0|732.6|   27| 26.2|sensors[2] |counter4_reg[1]/D
+3    |I2R  |rtDefaultClock|sysclk |1500.0|733.7|   27| 26.3|sensors[2] |counter3_reg[2]/D
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+-----------------
+Report End Points: 
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+     |Group|Launch|Capture|Shift|Delay|Depth|Slack|Begin Point|End Point
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+1    |I2O  |      |       |     |     |     |     |           |         
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+Report End Points: 
+-----+-----+------+-------+-----+-----+-----+-----+-----------------+-----------------
+     |Group|Launch|Capture|Shift|Delay|Depth|Slack|Begin Point      |End Point        
+-----+-----+------+-------+-----+-----+-----+-----+-----------------+-----------------
+1    |R2O  |sysclk|vsysclk|500.0|  0.8|    0| 80.3|temp_out_reg[5]/Q|output_signals[5]
+2    |R2O  |sysclk|vsysclk|500.0|  0.8|    0| 80.3|temp_out_reg[4]/Q|output_signals[4]
+3    |R2O  |sysclk|vsysclk|500.0|  0.8|    0| 80.3|temp_out_reg[3]/Q|output_signals[3]
+-----+-----+------+-------+-----+-----+-----+-----+-----------------+-----------------

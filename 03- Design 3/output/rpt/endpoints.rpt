@@ -1,0 +1,30 @@
+Report End Points: 
+-----+-------+------+-------+------+-----+-----+-----+---------------------+----------------------------
+     |Group  |Launch|Capture|Shift |Delay|Depth|Slack|Begin Point          |End Point                   
+-----+-------+------+-------+------+-----+-----+-----+---------------------+----------------------------
+1    |default|sysclk|sysclk |1000.0|277.8|   11|527.7|currentstate_reg[0]/Q|temp_output_signals_reg[4]/D
+2    |default|sysclk|sysclk |1000.0|277.8|   11|527.7|currentstate_reg[0]/Q|temp_output_signals_reg[0]/D
+3    |default|sysclk|sysclk |1000.0|281.8|   10|532.0|currentstate_reg[0]/Q|temp_output_signals_reg[5]/D
+-----+-------+------+-------+------+-----+-----+-----+---------------------+----------------------------
+Report End Points: 
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+----------------------------
+     |Group|Launch        |Capture|Shift |Delay|Depth|Slack|Begin Point|End Point                   
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+----------------------------
+1    |I2R  |rtDefaultClock|sysclk |1000.0|257.3|   10|  2.0|sensors[3] |temp_output_signals_reg[4]/D
+2    |I2R  |rtDefaultClock|sysclk |1000.0|257.3|   10|  2.0|sensors[3] |temp_output_signals_reg[0]/D
+3    |I2R  |rtDefaultClock|sysclk |1000.0|261.3|    9|  6.3|sensors[3] |temp_output_signals_reg[5]/D
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+----------------------------
+Report End Points: 
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+     |Group|Launch|Capture|Shift|Delay|Depth|Slack|Begin Point|End Point
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+1    |I2O  |      |       |     |     |     |     |           |         
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+Report End Points: 
+-----+-----+------+-------+------+-----+-----+-----+---------------------+----------
+     |Group|Launch|Capture|Shift |Delay|Depth|Slack|Begin Point          |End Point 
+-----+-----+------+-------+------+-----+-----+-----+---------------------+----------
+1    |R2O  |sysclk|vsysclk|1000.0|  0.4|    0|532.2|currentstate_reg[2]/Q|display[2]
+2    |R2O  |sysclk|vsysclk|1000.0|  0.4|    0|539.9|currentstate_reg[1]/Q|display[1]
+3    |R2O  |sysclk|vsysclk|1000.0|  0.4|    0|545.8|currentstate_reg[0]/Q|display[0]
+-----+-----+------+-------+------+-----+-----+-----+---------------------+----------

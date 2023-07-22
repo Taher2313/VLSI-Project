@@ -1,0 +1,30 @@
+Report End Points: 
+-----+-------+------+-------+------+-----+-----+-----+---------------------+---------------------
+     |Group  |Launch|Capture|Shift |Delay|Depth|Slack|Begin Point          |End Point            
+-----+-------+------+-------+------+-----+-----+-----+---------------------+---------------------
+1    |default|sysclk|sysclk |1000.0|238.6|    6|564.6|currentstate_reg[1]/Q|currentstate_reg[1]/D
+2    |default|sysclk|sysclk |1000.0|206.6|    6|601.4|currentstate_reg[2]/Q|currentstate_reg[2]/D
+3    |default|sysclk|sysclk |1000.0|192.3|    7|608.0|currentstate_reg[1]/Q|currentstate_reg[0]/D
+-----+-------+------+-------+------+-----+-----+-----+---------------------+---------------------
+Report End Points: 
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+---------------------
+     |Group|Launch        |Capture|Shift |Delay|Depth|Slack|Begin Point|End Point            
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+---------------------
+1    |I2R  |rtDefaultClock|sysclk |1000.0|229.4|    4| 40.0|sensors[0] |currentstate_reg[2]/D
+2    |I2R  |rtDefaultClock|sysclk |1000.0|217.9|    6| 41.5|sensors[2] |currentstate_reg[1]/D
+3    |I2R  |rtDefaultClock|sysclk |1000.0|193.3|    5| 75.4|sensors[1] |currentstate_reg[0]/D
+-----+-----+--------------+-------+------+-----+-----+-----+-----------+---------------------
+Report End Points: 
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+     |Group|Launch|Capture|Shift|Delay|Depth|Slack|Begin Point|End Point
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+1    |I2O  |      |       |     |     |     |     |           |         
+-----+-----+------+-------+-----+-----+-----+-----+-----------+---------
+Report End Points: 
+-----+-----+------+-------+------+-----+-----+-----+---------------------+----------
+     |Group|Launch|Capture|Shift |Delay|Depth|Slack|Begin Point          |End Point 
+-----+-----+------+-------+------+-----+-----+-----+---------------------+----------
+1    |R2O  |sysclk|vsysclk|1000.0|  0.4|    0|538.2|currentstate_reg[2]/Q|display[2]
+2    |R2O  |sysclk|vsysclk|1000.0|  0.4|    0|538.8|currentstate_reg[0]/Q|display[0]
+3    |R2O  |sysclk|vsysclk|1000.0|  0.4|    0|539.1|currentstate_reg[1]/Q|display[1]
+-----+-----+------+-------+------+-----+-----+-----+---------------------+----------

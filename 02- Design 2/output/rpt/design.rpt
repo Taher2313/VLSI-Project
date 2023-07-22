@@ -1,0 +1,36 @@
+Report Physical info: 
+------------------------+-----------------+-----------+------------
+                        |                 |Area (squm)|Leakage (uW)
+------------------------+-----------------+-----------+------------
+Design Name             |FSMHomeAutomation|           |            
+  Total Instances       |              156|        164|       3.502
+    Macros              |                0|          0|       0.000
+    Pads                |                0|          0|       0.000
+    Phys                |                0|          0|       0.000
+    Blackboxes          |                0|          0|       0.000
+    Cells               |              156|        164|       3.502
+      Buffers           |                0|          0|       0.000
+      Inverters         |               38|         20|       0.545
+      Clock-Gates       |                0|          0|       0.000
+      Combinational     |              109|        103|       2.208
+      Latches           |                0|          0|       0.000
+      FlipFlops         |                9|         41|       0.748
+       Single-Bit FF    |                9|         41|       0.748
+       Multi-Bit FF     |                0|          0|       0.000
+       Clock-Gated      |                0|           |            
+       Bits             |                9|         41|       0.748
+         Load-Enabled   |                0|           |            
+         Clock-Gated    |                0|           |            
+  Tristate Pin Count    |                0|           |            
+Physical Info           |Placed           |           |            
+  Chip Size (mm x mm)   |0.077 x 0.077    |       5858|            
+  Fixed Cell Area       |                 |          0|            
+    Phys Only           |                0|          0|            
+  Placeable Area        |                 |        255|            
+  Movable Cell Area     |                 |        164|            
+  Utilization (%)       |               64|           |            
+  Chip Utilization (%)  |               64|           |            
+  Total Wire Length (mm)|            0.769|           |            
+  Longest Wire (mm)     |            0.039|           |            
+  Average Wire (mm)     |            0.038|           |            
+------------------------+-----------------+-----------+------------

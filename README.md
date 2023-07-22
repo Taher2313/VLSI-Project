@@ -1,0 +1,2 @@
+# VLSI Project
+Create and implement a home automation system using Verilog. Conduct thorough steps, including synthesis, post-synthesis simulation, floor planning, placement, and routing, to ensure optimal performance and efficiency.
